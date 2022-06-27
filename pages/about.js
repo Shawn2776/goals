@@ -1,13 +1,9 @@
-import Head from "next/head";
+import Meta from "../components/Meta";
 
 function about() {
   return (
     <div>
-      <Head>
-        <title>About</title>
-        <meta name="keywords" content="goals, goal, motivation, structure" />
-      </Head>
-
+      <Meta title="About" />
       <h1>About</h1>
     </div>
   );
